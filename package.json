@@ -1,0 +1,36 @@
+{
+  "name": "mern__blog__backend",
+  "version": "1.0.0",
+  "description": "mern blog",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "mern",
+    "blog",
+    "react",
+    "mongoose",
+    "mongodb",
+    "express",
+    "nodejs"
+  ],
+  "author": "sumanth prabhu",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "esm": "^3.2.25",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^5.2.0",
+    "mongoose": "^7.0.3"
+  }
+}
